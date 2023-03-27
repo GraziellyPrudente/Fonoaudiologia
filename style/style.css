@@ -1,3 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.fundo{
+    background-color: blueviolet;
+}
+@font-face {
+    font-family: "Quicksand-Bold";
+    src: url("Fonte/Quicksand-Bold.otf") format ("opentype")
+    font-weight: normal;
+    font-style normal;
+    font-family: "Quicksand-Regular";
+    src: url("Fonte/Quicksand-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style normal;
+}
 p{
-    font-family: "";
+    font-family: "Quicksand-Bold", "Quicksand-Regular" ;
+
 }
