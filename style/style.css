@@ -1,21 +1,435 @@
 *{
-    margin:0;
+    margin: 0 auto;
     padding: 0;
 }
-.fundo{
-    background-color: blueviolet;
+#home .home{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
 }
-@font-face {
-    font-family: "Quicksand-Bold";
-    src: url("Fonte/Quicksand-Bold.otf") format ("opentype")
-    font-weight: normal;
-    font-style normal;
-    font-family: "Quicksand-Regular";
-    src: url("Fonte/Quicksand-Regular.otf") format("opentype");
-    font-weight: normal;
-    font-style normal;
+#home .home a{
+    color: black;
+}
+#depoimento .depoimento{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
+}
+#depoimento .depoimento a{
+    color: black;
+}
+#aplicativo .aplicativo{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
+}
+#aplicativo .aplicativo a{
+    color: black;
+}
+#contato .contato{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
+}
+#contato .contato a{
+    color: black;
+}
+#informações .informações{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
+}
+#informações .informações a{
+    color: black;
+}
+#nosso_espaço .nosso_espaço{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
+}
+#nosso_espaço .nosso_espaço a{
+    color: black;
+}
+#serviços .serviços{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
+}
+#serviços .serviços a{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 p{
-    font-family: "Quicksand-Bold", "Quicksand-Regular" ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+a:hover{
+    color: black;
+}
+.menu_top{
+    width: 100%;
+    height: 180px;
+    border-top: 10px solid #AA73D1;
+    background-color: #dfe2f2;
 
+}
+.menu_top img{
+    margin-left: 25px;
+}
+
+.top_esp{
+    width: 140px;
+    float: left;
+    padding: 25px;
+}
+
+.menu{
+    background-color: #AA73D1;
+
+
+}
+
+ul li{
+    background-color:#AA73D1;
+    width: 150px;
+    height: 50px;
+    line-height: 38px;
+    text-align: center;
+
+}
+
+ul{
+    padding: 0;
+
+}
+
+ul li:hover{
+    background-color:#DEFFEA;
+    color: black;
+    border-radius: 50px;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.frase{
+    text-align: center;
+    float: right;
+    margin-right: 70px;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    line-height: 35px;
+
+}
+.frase2{
+    text-align: center;
+    float: right;
+    margin-right: 70px;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    line-height: 35px;
+    margin-left: 75px;
+}
+.frase3{
+    text-align: center;
+    float: right;
+    margin-right: 175px;
+    margin-top: px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    line-height: 35px;
+}
+.frase4{
+    text-align: center;
+    float: right;
+    margin-left: 55px;
+    margin-right: 75px;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    line-height: 35px;
+}
+.frase5{
+    text-align: center;
+    float: right;
+    margin-left: 50px;
+    margin-right: 160px;
+    margin-top: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    line-height: 35px;
+}
+.frase5 img{
+    margin-top: -150px;
+    margin-left: 50px;
+    margin-right: 160px;
+}
+.frase6{
+    text-align: center;
+    float: center;
+    margin-top: 270px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    line-height: 35px;
+}
+.frase7{
+    text-align: center;
+    float: center;
+    margin-top: -25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    line-height: 35px;
+}
+.frase_home{
+    text-align: center;
+    float: right;
+    margin-right: 1%;
+    margin-top: 115px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    line-height: 35px;
+
+}
+.subtítulo{
+    text-align: center;
+    float: left;
+    margin-right: 70px;
+    margin-top: -10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    line-height: 40px;
+    margin-left: 95px;
+
+}
+.subtítulo2{
+    text-align: center;
+    float: center;
+    margin-top: -50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    line-height: 40px;
+}
+.título{
+    text-align: center;
+    float: right;
+    margin-right: 70px;
+    margin-top: 125px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    line-height: 40px;
+    margin-left: 75px;
+    margin-bottom: -25px;
+}
+
+.img1{
+    text-align: center;
+    float: left;
+    margin: 15px;
+}
+.img2{
+    text-align: center;
+    float: right;
+    margin: 15px;
+}
+.colums{
+    columns: 3;
+    margin: 15px;
+}
+.roda{
+    text-align: center;
+    background: linear-gradient(#AA73D1, #d07398)
+}
+.voltar{
+    float: right;
+    margin-right: 30px;
+    background-color:#AA73D1;
+    padding: 15px;
+    border-radius: 50px;
+}
+.download{
+    float: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color:#AA73D1;
+    padding: 25px;
+    border-radius: 50px;
+    }
+    .download a{
+        color:black ;
+    }
+    .download img{
+        margin-bottom: -10px;
+        text-align: center;
+        margin-left: 250px;
+    }
+.maps{
+    float:left;
+    margin-top: 260px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.maps img{
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.maps2{
+
+    margin-top: 200px;
+ 
+}
+.maps2 img{
+    border-radius: 50%;
+   
+    margin-top: 80px;
+}
+.maps3{
+    float:left;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.maps3 img{
+    float:left;
+    border-radius: 90%;
+    margin-left: 150px;
+}
+.img{
+    text-align: center;
+    margin: 15px;
+    border-radius:30% ;
+}
+.img img{
+    width: 33%;
+    border-radius: 30%;
+}
+.img1 img{
+    width: 100%;
+    border-radius: 30%;
+}
+.img2 img{
+    width: 100%;
+    border-radius: 30%;
+}
+.background{
+    background-color: #DFE2F2;
+
+}
+.banner{
+    margin-top: 230px;
+}
+.roda p{
+    font-size: large;
+}
+.serv_float{
+    float: left;
+}
+
+.ze{
+    margin-top: 210px;
+}
+.meio{
+    background-color: #DFE2F2;
+    padding: 30px;;
+    height: 400px;
+}
+
+.meio_esq{
+    float: left;
+    width: 59%;
+
+}
+.meio_dir{
+    float: left;
+    width: 38%;
+}
+.meio_dir img{
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 30%;
+}
+
+.banner4{
+    float: left;
+    margin-top: 300px;
+}
+.banners img{
+    float: center;
+    margin: 15%;
+    border: 15px solid #AA73D1;
+    border-radius: 5%;
+}
+figure h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Qrcode img{
+    border: 45px solid #AA73D1;
+    border-radius: 30%;
+}
+.logo{
+    margin-top: 100px;
+    margin-left: -300px;
+    padding: 150px;
+}
+.banner6 img{
+    float: right;
+    margin-top: 250px;
+}
+.frase p{
+    margin-top: -275px;
+    margin-left: 350px;
+}
+
+.depoimento_icone{
+    margin-right: -100px;
+}
+
+.contato1{
+    float: center;
+    margin-left: 0px;
+}
+.loc_dir{
+    float: center;
+    margin-top: -175px;
+}
+
+.loc{
+    margin-left: 50px;
+    float: center;
+}
+.insta_depo{
+    margin-top: -25px;
+    margin-left: -100px;
+}
+.banner2{
+    float: left;
+    background-color:#AA73D1;
+    padding: 25px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+    }
+.banner2 img{
+    margin-bottom: -10px;
+    margin-right: 10px;
+}
+header{
+    z-index: 1;
+}
+.contato_fra{
+    float: right;
 }
